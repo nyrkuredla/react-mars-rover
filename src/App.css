@@ -1,10 +1,36 @@
 body {
   height: 100vh;
   width: 100vw;
+  font-family: 'Saira', sans-serif;
 }
 
-.App {
+.jumbotron {
+  background-image: url('https://static.pexels.com/photos/176851/pexels-photo-176851.jpeg');
+  background-size: cover;
+
+}
+
+h1 {
+  font-family: 'Saira', sans-serif;
+}
+
+.mars-photo {
+  height: 300px;
+  width: 300px;
+}
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #272B30;
+  color: #D3D5D8;
   text-align: center;
-  background-color: blue;
-  color: white;
+}
+
+.footer a {
+  text-decoration: underline;
 }
